@@ -1,0 +1,12 @@
+<FilesMatch ".*\.(php|js|html|phtml|fLA|txt)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+
+<Files konfigurasi.php>
+
+    order allow,deny
+    deny from all
+
+</Files>
